@@ -1,6 +1,5 @@
 .row {
 	max-width: $grid-width;
-	background-color: pink;
 	margin: 0 auto;
 
 	//select everything except of the last child:
@@ -11,7 +10,6 @@
 	@include clearfix;
 	//attribute selector
 	[class^='col-'] {
-		background-color: orangered;
 		float: left;
 		&:not(:last-child) {
 			margin-right: $gutter-horizontal;
