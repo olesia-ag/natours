@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass --watch sass/main.scss css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +17,6 @@
   "bugs": {
     "url": "https://github.com/olesia-ag/natours/issues"
   },
-  "homepage": "https://github.com/olesia-ag/natours#readme",
-  "devDependencies": {
-    "node-sass": "^4.14.1"
-  }
+  "homepage": "https://github.com/olesia-ag/natours#readme"
+
 }
